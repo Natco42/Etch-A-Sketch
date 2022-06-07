@@ -18,19 +18,20 @@
      align-items: center;
      flex-direction: column;
      width: 400px;
+     
   }
   #container {
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 900px;
+    max-height: 900px;
     
 
   }
   
   .gridItem {
-    padding: 1em;
+    padding: 1px;
     border: 0px solid rgb(255, 255, 255);
     text-align: center;
     background-color: white;
