@@ -4,8 +4,6 @@
 const containerDiv = document.querySelector("#container");
 const gridItem = document.getElementById('gridItem');
 function makeRows(rows, cols) {
-
-
   while (document.querySelector("button") !== null) {
     document.querySelector("button").remove();
   }
